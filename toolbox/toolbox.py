@@ -9,3 +9,7 @@ def plot_history(history):
     plt.xlabel('Epoch')
     plt.legend(['Train', 'Val'], loc='best')
     plt.show()
+
+
+def addition(a, b):
+    return a+b
